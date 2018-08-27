@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.8.24)  26 AUG 2018 13:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.8.23)  26 AUG 2018 20:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -648,53 +648,63 @@ Underfull \hbox (badness 10000) in paragraph at lines 74--76
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--95
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
 
-[3] [4] (./week1.aux) ) 
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[3]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[4] [5] (./week1.aux) ) 
 Here is how much of TeX's memory you used:
- 22553 strings out of 492642
- 588387 string characters out of 6133162
- 776348 words of memory out of 5000000
- 26054 multiletter control sequences out of 15000+600000
+ 22569 strings out of 492642
+ 588677 string characters out of 6133162
+ 778348 words of memory out of 5000000
+ 26070 multiletter control sequences out of 15000+600000
  13952 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,19n,104p,735b,2336s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmbx10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12
-.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/
-texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2
-018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2018/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2018/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmib10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r17.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:
-/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/20
-18/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2018/texmf-dist/fonts
-/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2018/texmf-dist/fonts/typ
-e1/public/amsfonts/symbols/msbm10.pfb>
-Output written on week1.pdf (4 pages, 159845 bytes).
+cm/cmbsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
+0.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:
+/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><c:/texlive/2
+018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2018/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmib10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cme
+xtra/cmmib7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/
+texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/20
+18/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2018/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2018/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts
+/symbols/msam10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/sym
+bols/msbm10.pfb>
+Output written on week1.pdf (5 pages, 187322 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
+ 99 PDF objects out of 1000 (max. 8388607)
+ 72 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

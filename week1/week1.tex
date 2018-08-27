@@ -90,6 +90,7 @@
         	\end{tikzpicture}
         	\caption{Polar representation}
         \end{figure}
+    
     \subsection{Definitions of Terms}
         \noindent \textbf{arg$(z)$}: Argument of $z$, also known as $\theta$, $\arg{z}=\arctan{\frac{y}{x}}$ \\*
     
@@ -106,7 +107,51 @@
         
 \section{Algebra with Complex Numbers}
     \subsection{Addition}
+    	\noindent Addition of complex numbers is done by adding the real parts and imaginary parts: $z_1 + z_2 = (x_1+y_2i)+(x_2+y_2i) = (x_1+x_2)+i(y_1+y_2)$ This can be visualized in the same way as vector addition ("tip-to-tail" method). \\*  
+        \begin{figure}[!h]
+        	\centering
+    	    \begin{tikzpicture}
+    	        % Axes/grids
+    	        \draw[thin,gray!40] (-2,-2) grid (6,6);
+         	    \draw[<->] (-2,0)--(6,0) node[right]{$Re$};
+    	        \draw[<->] (0,-2)--(0,6) node[above]{$Im$};
+    	        % z1
+    	        \draw[line width=2pt,blue,-stealth](0,0)--(1,3) node[anchor=south east]{$\boldsymbol{z_1}$};
+    	        % z2
+    	        \draw[line width=2pt,blue,-stealth](0,0)--(4,0.5) node[anchor=south east]{$\boldsymbol{z_2}$};
+    	        % Translated z1
+    	        \draw[dashed,blue,-stealth](4,0.5)--(5,3.5);
+    	        % Translated z2
+    	        \draw[dashed,blue,-stealth](1,3)--(5,3.5);
+    	        % Resulant
+    	        \draw[line width=2pt,red,-stealth](0,0)--(5,3.5) node[anchor=south west]{$\boldsymbol{z_{sum}}$};
+    	    \end{tikzpicture}
+        	\caption{The sum $\vec{z_1}+\vec{z_2}$ is the diagonal through the parallelogram formed by $z_1$ and $z_2$}
+        \end{figure}
     \subsection{Subtraction}
+        \noindent Subtraction of complex numbers is done by adding the real parts and imaginary parts of $z_1$ and $-z_2$: $z_1 - z_2 = (x_1+y_2i)-(x_2+y_2i) = (x_1+y_2i)+(-x_2-y_2i)=(x_1-x_2)+i(y_1-y_2)$ This can be visualized in the same way as vector subtraction ("triangle" method). \\*  
+        \begin{figure}[!h]
+    	    \centering
+    	    \begin{tikzpicture}
+    	        % Axes/grids
+    	        \draw[thin,gray!40] (-5,-2) grid (6,6);
+    	        \draw[<->] (-5,0)--(6,0) node[right]{$Re$};
+    	        \draw[<->] (0,-2)--(0,6) node[above]{$Im$};
+    	        % z1
+    	        \draw[line width=2pt,blue,-stealth](0,0)--(1,3) node[anchor=south east]{$\boldsymbol{z_1}$};
+    	        % z2
+    	        \draw[line width=2pt,blue,-stealth](0,0)--(4,0.5) node[anchor=south east]{$\boldsymbol{z_2}$};
+    	        % -z2
+    	        \draw[dashed,blue,-stealth](0,0)--(-4,-0.5) node[anchor=south east]{$\boldsymbol{-z_2}$};
+    	        % Translated z1
+    	        \draw[dashed,blue,-stealth](-4,-0.5)--(-3,2.5);
+    	        % Resulant
+    	        \draw[line width=2pt,red,-stealth](0,0)--(-3,2.5) node[anchor=south west]{$\boldsymbol{z_{diff}}$};
+    	        % Translated Resultant
+    	        \draw[dashed,red,-stealth](1,3)--(4,0.5);
+    	    \end{tikzpicture}
+    	    \caption{The difference $\vec{z_1}-\vec{z_2}$ is the third side of the triangle formed by $z_1$ and $-z_2$}
+    \end{figure}
     \subsection{Multiplication}
     \subsection{Division}
         
